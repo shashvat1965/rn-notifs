@@ -94,7 +94,7 @@ const ContactListScreen = ({route, navigation}) => {
                               fontFamily: 'Nunito-Regular',
                               marginBottom: verticalScale(20),
                             }}>
-                            '{item.number} {item.onPlatform ? '✅' : '❌'}
+                            {item.number} {item.onPlatform ? '✅' : '❌'}
                           </Text>
                         </View>
                       );
